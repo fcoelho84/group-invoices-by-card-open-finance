@@ -1,0 +1,17 @@
+export const ErrorCode = {
+  ITEM_NOT_FOUND: 'ITEM_NOT_FOUND',
+  BILL_NOT_FOUND: 'BILL_NOT_FOUND',
+  GROUP_NOT_FOUND: 'GROUP_NOT_FOUND',
+  OPEN_FINANCE_ERROR: 'OPEN_FINANCE_ERROR',
+  MISSING_CONFIG: 'MISSING_CONFIG',
+  INTERNAL_ERROR: 'INTERNAL_ERROR',
+  INVALID_CREDENTIALS: 'INVALID_CREDENTIALS',
+  EMAIL_TAKEN: 'EMAIL_TAKEN',
+  UNAUTHORIZED: 'UNAUTHORIZED',
+} as const;
+
+export type ErrorCode = (typeof ErrorCode)[keyof typeof ErrorCode];
+
+export type ApiErrorResponse = {
+  code: ErrorCode;
+};

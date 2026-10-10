@@ -1,0 +1,1 @@
+{"root":["./src/main.tsx","./src/routeTree.gen.ts","./src/vite-env.d.ts","./src/lib/api.ts","./src/routes/__root.tsx","./src/routes/cards.$cardNumber.tsx","./src/routes/groups.$groupId.tsx","./src/routes/index.tsx","./src/routes/login.tsx","./src/routes/outside.tsx","./src/routes/register.tsx"],"version":"5.9.3"}
